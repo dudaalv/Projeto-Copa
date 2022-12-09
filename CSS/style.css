@@ -1,0 +1,217 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#barra1{
+    width: 95%;
+    height: 65px;
+    background-color:white;
+    margin-left: 35px;
+    display: flex;
+    margin-top: 10px;
+}
+#suplogo{
+    width: 15%;
+    height: 100%;
+    background-color:white;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
+#supicons{
+    width: 30%;
+    background-color: white;
+    height: 100%;
+    margin-left: 60%;
+    display: flex;
+    border-radius: 50px;
+}
+#iconi{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#iconw{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#icont{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#iconsm{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#supbanner{
+    width: 95%;
+    height: 200px;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 35px;
+}
+#banner{
+    width: 100%;
+    height: 110%;
+    border-radius: 20px;
+}
+#container{
+    width: 95%;
+    margin-left: 35px;
+    height: 1000px;
+    margin-top: 30px;
+    display: flex;
+}
+#suplateral{
+    background-color: #370029;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+}
+#blocosl{
+    background-color: #370029;
+    width: 90%;
+    height: 95%;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.bli{
+    width: 100%;
+    height: 24%;
+    margin-top: 15px;
+}
+.bnd{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#separadorc1{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+#sep1{
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+#sep2{
+    height: 65%;
+    width: 100%;
+}
+#conteudo1{
+    width: 50%;
+    height: 100%;
+}
+#conteudo1{
+    width: 50%;
+    height: 100%;
+}
+#gales{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+#txtp{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right:15px;
+}
+#titulo{
+    font-size: 35px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top: 10px;
+}
+#titulom{
+    display: none;
+}
+#txtpm{
+    display: none;
+}
+.shorts{
+    width: 90%;
+    height: 25%;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+}
+.shimg{
+    width: 30%;
+    height: 100%;
+}
+.txtsh{
+    width: 70%;
+    height: 100%;
+}
+.imgsh{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.txt{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#barrac{
+    background-color: #e6e7e9;
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+}
+@media (max-width: 390px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #banner{
+        width: 90%;
+        height: 50%;
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+    #iconw, #iconi, #suplateral,#conteudo1 {
+        display: none;
+    }
+    #iconsm{
+        width: 200%;
+    }
+    #logo{
+        width: 200%;
+    }
+    #conteudo2{
+        width: 100%;
+        position: center;
+        margin-top: 0px;
+    }
+    #txtpm{
+        display: contents;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5PX;
+    }
+    .shorts, .shimg{
+        width: 100%;
+    }
+    .txt{
+        font-size: 10px;
+    }
+
+}
